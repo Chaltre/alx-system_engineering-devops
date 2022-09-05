@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f-number 'bin*' | /etc/passwd
+egrep -c 'bin' /etc/passwd
